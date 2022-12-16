@@ -29,7 +29,7 @@ let movies = [{
 
 //get the movie
 app.get("/movie", (req, res) => {
-    res.json(movies);
+    res.send(movies);
 })
 
 //add the movie to list
